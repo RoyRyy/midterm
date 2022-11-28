@@ -10,6 +10,7 @@ int main(){
             p[i][j]=0;
         }
     }
+    
     for(i=0;i<m;i++){
         for(j=0;j<n;j++){
             printf("a[%d][%d]=%d\t",i,j,p[i][j]);
